@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: *.html 
+    destination: /var/www/politicalnews/public_html 
+  - source: assets  
+    destination: /var/www/politicalnews/public_html/assets 
