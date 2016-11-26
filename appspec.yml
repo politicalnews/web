@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 files:
   - source: *.html 
-    destination: /var/www/politicalnews/public_html 
+    destination: /var/www/html
   - source: assets  
-    destination: /var/www/politicalnews/public_html/assets 
+    destination: /var/www/html/assets 
