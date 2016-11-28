@@ -1,7 +1,9 @@
 version: 0.1
 os: linux
 files:
-  - source: *.html 
+  - source: index.html 
+    destination: /var/www/html
+  - source: about.html
     destination: /var/www/html
   - source: assets  
     destination: /var/www/html/assets 
